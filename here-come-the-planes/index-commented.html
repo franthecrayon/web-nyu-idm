@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<!-- not an html tag, but an instruction to the browser being used
+about what version of HTML the page is written in -->
+<html>
+<!-- this html tag defines where the html portion of the code begins -->
+  <head>
+    <!-- the head contains the metadata, which typically includes the document
+    title, styles, scripts, and other information. -->
+    <title>Francesca's Site</title>
+    <!-- the title tag is an html tag that changes what the tab of the page
+    says -->
+    <style>
+    /* the style tag allows for css to be used within an html format */
+    /* the css in the code begins here */
+    body {
+      /* the body tag includes the basic information needed to create the page
+      in css including background and text colors */
+      border: 10px dotted black;
+      /* this is a css tag that adds a border around the page,
+      this one specifically is dotted and black */
+      padding: 15px;
+      /* this css tag generates the space between the border and the text
+      content, this means there will be 15px of space between */
+      background-clip: padding-box;
+      /* this css tag causes the background to extend to the inner edge
+      of the border */
+      background-image: repeating-radial-gradient(#4ac9ff, #7da4ff, #002a66);
+      /* this css tag allows the background to be a circle gradiant of blue
+      shades */
+      color: black;
+      /* this css tag allows for the main text color to be black */
+      font-size: 40px;
+      /* this css tag defines the main size of the text */
+    }
+    a {
+      /* this css tag allows for edits to be made to the link only */
+      text-decoration: none;
+      /* this css tag removes the underline from the imbedded link */
+      color: black;
+      /* this css tag defines the color of the text for the link */
+      font-size: 30px;
+      /* this css tag defines the size of the text for the link */
+    }
+    a:hover {
+      /* this css tag causes something else to happen, such as color change,
+      when the mouse is hovered over the imbedded link */
+      color: white;
+      /* this css tag defines, or in this case changes, the color of the text */
+    }
+    h1 {
+      /* this css tag allows for edits to be made to heading 1 only */
+      -webkit-text-stroke-width: 1px;
+      /* this is a special type of css tag that does not work on some browsers,
+      it allows there to be a stroke of 1px around the text */
+      -webkit-text-stroke-color: black;
+      /* this defines the color of the stroke */
+      -webkit-text-fill-color: transparent;
+      /* this defines the fill of the text to be clear */
+      text-shadow: 5px 7px 5px white;
+      /* this css tag adds a shadow to the text, the first two numbers define
+      the placement of the shadow, and the last defines the blur radius */
+      word-spacing: -5px;
+      /* this css tag decreases or increases the amount of space between
+      words of text */
+      text-align: center;
+      /* this css tag causes the text to be centered or a different alignment
+       on the page */
+      font-family: "Luminari", fantasy;
+      /* this css tag changes the font of the text */
+    }
+    h1:hover {
+      /* this css tag causes something else to happen, such as rotation,
+      when the mouse is hovered over heading 1 */
+      transform: rotate(180deg);
+      /* this css tag rotates the object a center number of degrees */
+    }
+    div {
+      /* this css tag defines a center section or element that can have
+       specific edits or behaviors */
+      box-shadow: 10px 10px 5px black;
+      /* this css tag applys a shadow to the box div */
+
+    }
+    h2 {
+      /* this css tag allows for edits to be made to heading 2 only */
+      text-align: left;
+      /* this css tag aligns the text on the left side of the page */
+      font-style: oblique;
+      /* this css tag causes the text to have a different condition
+      such as slightly slanted */
+      text-shadow: 0px 0px 8px black;
+      /* defining the placement of the text shadow as 0px and 0px with a blur
+      radius causes the text to look as if it is glowing */
+    }
+    h2:hover {
+      /* this css tag causes something else to happen, such as color and
+      background changes, when the mouse is hovered over heading 2 */
+      color: white;
+      /* this css tag defines, or in this case changes, the color of the text */
+      text-shadow: 0px 0px 8px white;
+      /* this css tag, defines, or in this case changes, the shadow of the
+      text */
+      background-color: black;
+      /* under the hover tag, this causes the background to change to black */
+    }
+    h3 {
+      /* this css tag allows for edits to be made to heading 3 only */
+      text-decoration: underline;
+      /* this css tag adds an underline to the text */
+      text-decoration-color: white;
+      /* this css tag causes the underline to be white */
+      text-align: right;
+      /* this css tag causes the alignment of the text to be to the right
+      of the page */
+      font-variant: small-caps;
+      /* this css tag changes the style of the text */
+    }
+    h3:hover {
+      /* this css tag causes something else to happen, such as font style and
+      spacing, when the mouse is hovered over heading 3 */
+      font-style: italic;
+      /* this css tag causes the text to be sylized differently */
+      letter-spacing: 3px;
+      /* this css tag causes the spacing between letters to be different */
+    }
+    h4 {
+      /* this css tag allows for edits to be made to heading 4 only */
+      outline: 2px dashed white;
+      /* this css tag adds an outlined box around the text, this specifically
+      is a dashed white outline */
+      outline-offset: 2px;
+      /* this css tag defines how far from the text the outline begins */
+      font-weight: bold;
+      /* this css tag changes the thickness of the text */
+      text-align: left;
+      /* this css tag aligns of the text to the left of the page */
+      font-kerning: normal;
+      /* this css tag defines how the letters are spaced, normal is the
+      default letter spacing */
+    }
+    h4:hover {
+      /* this css tag causes something else to happen, such as font size,
+       when the mouse is hovered over heading 4 */
+      font-size: 1.5em;
+      /* this css tag changes the size of the text, and em is a scalable
+      measure of size */
+    }
+    h5 {
+      /* this css tag allows for edits to be made to heading 5 only */
+      font-size: 30px;
+      /* this css tag defines the size of the text */
+      text-align: center;
+      /* this css tag centers the text on the page */
+    }
+  /* the css portion of code ends here */
+    </style>
+    <!-- the slash in front closes the html tag -->
+    <!-- this style tag in html closes out the css portion of the code -->
+  </head>
+<!-- the html portion of code begins here -->
+  <body>
+    <!-- this is the html tag for what is included in the main portion of
+    the site -->
+    <h1>Neither snow nor rain nor gloom night</h1>
+    <!-- this html tag defines what heading 1 says -->
+    <div style="background-color:white">
+    <!-- this html tag defines a division or section of the page that is
+    stylized differently than the rest of the page -->
+    <h2>Shall stay these couriers</h2>
+    <!-- this html tag defines what heading 2 says -->
+    </div>
+    <h3>From the swift completion</h3>
+    <!-- this html tag defines what heading 3 says -->
+    <h4>Of their appointed rounds</h4>
+    <!-- this html tag defines what heading 4 says -->
+    <h5>
+    <!-- this html tag defines what heading 5 says -->
+      <marquee scrollamount="3"
+        direction="left"
+        behavior="alternate"
+        onmousedown="this.stop();"
+        onmouseup="this.start();">
+        <!-- this marquee html tag is becoming obsolete, but it causes the text
+         or object on the page to move -->
+         <!-- the html tag of scrollamount defines the speed of the scroll -->
+         <!-- the html direction and behavior tags define how the text moves -->
+         <!-- the html tags for onmouseup and onmousedown define that the text
+          will stop moving when clicked on by the mouse -->
+        Ah ah ah ah ah
+      <a href="https://mittymild.github.io/web-nyu-idm/here-come-the-planes">
+        ah...</a>
+        <!-- this html tag inserts a link into the page as a certain word -->
+    </h5>
+  </body>
+  <!-- this html tag ends the body section of the code -->
+</html>
+<!-- this html tag stops the html portion of the code -->
