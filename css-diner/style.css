@@ -37,6 +37,9 @@ img:hover {
   transform: scaleX(-1);
 }
 
+/* Level 15 - First Child Selector: By using this selector, I am able to select
+the first <h> tag element in each of my defined classes. This allows me to make
+specific and unique changes to all of the first <h> tags at once.  */
 h2:first-child {
   font-size: 50px;
   font-family: 'Pacifico', cursive;
