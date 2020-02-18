@@ -59,6 +59,9 @@ p:last-child {
   line-height: 100%;
 }
 
+/* Level 3 - ID Selector: The id tag a unique id for an element so certain
+aspects of the element can be changed. The main element being changed here is
+the color of each h2. */
 #toy-story {
   color: #ff3d2b;
 }
