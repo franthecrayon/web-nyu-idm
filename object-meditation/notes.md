@@ -68,30 +68,3 @@ dressed as Rey and Kylo Ren. We did a photoshoot in our outfits and specifically
 of our bracelets since they are lines from the characters. We posted these
 photos on our Twitters, and the response we received was overwhelming.
 Everyone loved our story and was so happy to see our happy relationship.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# this is the biggest header (h1)
-## h2
-### h3
-
-**this is bold**
-
-- these
-- are
-- bullets
