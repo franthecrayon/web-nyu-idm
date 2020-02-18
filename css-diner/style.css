@@ -51,6 +51,9 @@ h2:hover {
   transform: rotate(180deg);
 }
 
+/* Level 17 - Last Child Selector: By using this selector, I am able to select
+the last <p> tag element in each of my defined classes. This allows me to make
+specific changes to each of the <p> tags together. */
 p:last-child {
   font-family: 'Special Elite', cursive;
   line-height: 100%;
