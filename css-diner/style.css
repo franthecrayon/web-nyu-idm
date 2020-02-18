@@ -1,38 +1,75 @@
-
-/* This is default helpul CSS to include - dont edit this part unless... you want to */
 html,
 body {
-  margin: 0;
+  margin: 3%;
   padding: 0;
 }
 
 *, *:before, *:after {
   box-sizing: inherit;
 }
-/* THE END of default helpful basic CSS to include. EDIT the stuff BELOW this line*/
-
-@font-face {
-  font-family: 'violet';
-  src: url('./fonts/VioletSans-Regular.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
 
 body {
-  background-color: violet;
-  color: yellow;
+  background-color: #96fffa;
+  color: black;
   text-align: center;
   font-size: 2em;
 }
 
-.my-fun-class {
-  width: 40%;
-  border: 2px solid forestgreen;
-  display: block;
-  margin: auto;
+/* Level 6 - Class Selector: This tag allows class names to be defined in html
+and css tags. Using individual classes can allow for unique changes to certain
+blocks of text or elements. For my class definitions, I chose to separate
+each movie into its own class. */
+.title {
+  font-family: 'Pacifico', cursive;
+  font-size: 2em;
+  text-shadow: 5px 5px 5px white, 10px 10px 10px black;
 }
 
-img {
-  width: 40%;
-  padding: 2em;
+img:empty {
+  width: 15%;
+}
+
+img:hover {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+h2:first-child {
+  font-size: 50px;
+  font-family: 'Pacifico', cursive;
+  line-height: 50%;
+  text-shadow: 5px 5px 5px black;
+}
+
+h2:hover {
+  transform: rotate(180deg);
+}
+
+p:last-child {
+  font-family: 'Special Elite', cursive;
+  line-height: 100%;
+}
+
+#toy-story {
+  color: #ff3d2b;
+}
+
+#cars {
+  color: #ffff29;
+}
+
+#monsters-inc {
+  color: #0509ff;
+}
+
+#up {
+  color: #ff3d2b;
+}
+
+#the-good-dinosaur {
+  color: #ffff29;
+}
+
+#coco {
+  color: #0509ff;
 }
