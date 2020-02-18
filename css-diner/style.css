@@ -25,6 +25,9 @@ each movie into its own class. */
   text-shadow: 5px 5px 5px white, 10px 10px 10px black;
 }
 
+/* Level 25 - Empty Selector: This is commonly used for image tags as there are
+no other elements inside of the img tag. Since there are no other elements
+inside of my image tag, it can be defined as empty. */
 img:empty {
   width: 15%;
 }
