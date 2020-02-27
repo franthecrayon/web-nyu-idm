@@ -1,0 +1,57 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lovers Quarrel';
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.grid-container {
+  display: inline-grid;
+}
+
+body {
+  background-image: url("star-wars-stars.jpg");
+  color: white;
+  text-align: center;
+  font-size: 3em;
+}
+
+h1 {
+  text-shadow: 5px 5px 5px black;
+}
+
+p {
+  text-shadow: 5px 5px 5px black;
+}
+
+background-image {
+  opacity: 10%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 300px 300px 300px;
+  margin: 1em;
+}
+
+.grid-container > div {
+  margin: 2em;
+}
+
+#grid-item-1 {
+  font-size: 5em;
+  color: white;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
