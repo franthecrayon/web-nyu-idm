@@ -12,9 +12,14 @@ console.log(randomLetter);
 // push your edits to github!!
 
 // 2. Write a function called myAlphabetLength which console.logs the length of the array
-function myAlphabetLength(max) {
-   return Math.floor(Math.random() * Math.floor(max));
+function myAlphabetLength() {
+   if(myAlphabetLength<4)
+   console.log("number of items < 4");
+   else
+   console.log("number of items > 4");
 }
+
+myAlphabetLength();
 // push your edits to github!!
 
 // 3. Within the function also use an if-conditional statement that checks if the number of items within the array are less than 4
