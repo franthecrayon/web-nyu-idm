@@ -4,7 +4,7 @@ let myAlphabet = ['A', 'B', 'C', 'D','E','F','G'];
 
 // 1. What is the length of the array?
 7
-let l = getRandom(myAlphabet.length)
+let l = myAlphabetLength(myAlphabet.length)
 let randomLetter = myAlphabet[l];
 
 console.log(myAlphabet.length);
@@ -12,6 +12,9 @@ console.log(randomLetter);
 // push your edits to github!!
 
 // 2. Write a function called myAlphabetLength which console.logs the length of the array
+function myAlphabetLength(max) {
+   return Math.floor(Math.random() * Math.floor(max));
+}
 // push your edits to github!!
 
 // 3. Within the function also use an if-conditional statement that checks if the number of items within the array are less than 4
